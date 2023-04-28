@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    width: 100%;
+}
+
+/* Nav Bar */
+
+.nav-bar{
+    background-color: black;
+}
+
+.nav-logo{
+    color: darkorange !important;
+    font-size: 50px !important;
+    font-weight: bolder;
+    margin-left: 100px;
+    text-align: center;
+}
+
+/* unvisited link */
+.a-nav:link {
+    color: white;
+    font-size: large;
+    margin: 10px;
+    text-decoration: none;
+    align-self: center;
+}
+
+/* visited link */
+.a-nav:visited {
+    color: white !important;
+}
+
+/* mouse over link */
+.a-nav:hover {
+    color: darkorange !important;
+}
+
+/* selected link */
+.a-nav:active {
+    color: darkorange !important;
+}
+
+/* Main Section */
+
+.main-img-div{
+    height: 650px;
+    overflow: hidden;
+}
+
+.main-img-div img{
+    width: 100%;
+    height: 1000px;
+    margin: -185px 0 0 0px;
+}
+
+.section-heading{
+    color: darkorange;
+    padding-top: 100px;
+}
+
+.team-para{
+    font-size: 20px;
+    width: 700px !important;
+}
+
+.destination-img{
+    width: 250px;
+    height: 200px;
+}
+
+.lead-img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 320px;
+    height: 500px;
+}
+
+.details-div{
+    background-color: black;
+    height: 250px;
+    margin-top: 100px !important;
+}
+
+.details{
+    color: darkorange;
+    font-size: 100px;
+    font-family: 'Cormorant Upright', serif;
+}
+
+.review-card{
+    width: 400px;
+    border-radius: 0% !important;
+    border-bottom: 5px solid rgb(116, 167, 249) !important;
+}
+
+.review-card h3{
+    color: rgb(116, 167, 249);
+}
+
+.review-card h6{
+    color: rgb(87, 87, 87) !important;
+}
+
+.review-card p{
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.review-card h7{
+    color: rgb(139, 138, 138) !important;
+}
+
+.review-card a{
+    text-decoration: none;
+}
+
+.contact-row{
+    padding: 10px;
+}
+
+.contact-input{
+    font-size: larger !important;
+}
+
+.contact-btn{
+    font-size: larger !important;
+    min-width: 200px;
+}
+
+.links-div{
+    padding-top: 50px;
+    background-color: rgb(26, 25, 25);
+    height: 250px;
+    margin-top: 100px !important;
+}
+
+.icon-phone {
+    color: darkorange;
+}
+
+.icon-location {
+    color: darkorange;
+}
+
+.link-p{
+    font-size: small;
+    margin-bottom: 2%;
+}
+
+footer{
+    text-align:center;
+    display:flex;
+    height: 50px;
+    background-color: black;
+    padding-top: 15px;
+    justify-content:center;
+    align-items:center;
+}
